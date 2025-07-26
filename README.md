@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 rent_reminder/
 │
-├── rent_reminder.py         # Main script
+├── email_reminder.py         # Main script
 ├── .env                     # Environment variables file (not shared)
 ├── requirements.txt         # Python dependencies
 └── README.md                # This guide
@@ -66,7 +66,7 @@ TO_EMAIL=janedoe@gmail.com
 
 ```bash
 git clone https://github.com/yourusername/rent_reminder.git
-cd rent_reminder
+cd email_reminder
 ```
 
 2. **Install required libraries**:
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 4. **Run the script manually**:
 
 ```bash
-python rent_reminder.py
+python email_reminder.py
 ```
 
 ---
@@ -94,7 +94,7 @@ You can set this script to run automatically using:
 * Open Task Scheduler
 * Create a basic task
 * Trigger: Daily
-* Action: Start a Program → `python` and path to `rent_reminder.py`
+* Action: Start a Program → `python` and path to `email_reminder.py`
 
 #### 🐧 On Linux/macOS (Crontab):
 
