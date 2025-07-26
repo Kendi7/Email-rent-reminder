@@ -1,6 +1,3 @@
-Here’s a comprehensive and beginner-friendly `README.md` file to help anyone set up and use your **Python Rent Reminder Email Automation** system.
-
----
 
 ## 📧 Python Email Automation – Monthly Rent Reminder
 
